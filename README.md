@@ -1,41 +1,47 @@
-# World Happiness Report — Exploratory Data Analysis (2011–2024)
+# 🌍 World Happiness Report – Exploratory Data Analysis (EDA)
 
-This project explores global happiness trends using Gallup World Poll data.  
-The goal is to understand **which factors drive happiness**, **how countries' rankings evolve over time**,  
-and **which countries over- or under-perform compared to expectations**.
+This project analyzes the **World Happiness Report dataset (2011–2024)** to explore global happiness trends and the socio-economic factors that drive them. Using Python (Pandas, Matplotlib, Seaborn), I visualized happiness rankings, trends over time, and correlations between key explanatory variables such as **GDP per capita, social support, life expectancy, and perceptions of corruption**.  
 
 ---
 
-## 📊 Key Questions
-- Who are the happiest and least happy countries in 2024?
-- How have rankings changed over 2011–2024 (e.g., Canada’s decline, Nordic stability)?
-- Which factors (GDP, social support, life expectancy, freedom, corruption, generosity) matter most?
-- Which countries are happier or less happy than predicted by their fundamentals?
+## 🔎 Key Insights
+- **Top 10 happiest countries in 2024** are dominated by **Northern and Western Europe**, but also include **Costa Rica, Israel, and Mexico**.  
+- **Canada’s happiness rank has declined steadily** since 2011 (from top 5 to outside top 15 in 2024).  
+- **Social support and GDP per capita** show the strongest positive correlations with happiness (Ladder Score).  
+- The **Dystopia + residual** term captures unexplained variation, highlighting that subjective well-being is not fully explained by measurable socio-economic factors.  
 
 ---
 
-## 🔍 Methods & Tools
-- **Python (Pandas, Matplotlib, Seaborn)**
-- Data cleaning (handling NaN, filtering years, merging datasets)
-- Exploratory Data Analysis (EDA)
-- Correlation, residuals, and factor decomposition
-- Visualizations: bar charts, line charts, stacked bars, scatter plots, heatmaps
-
----
-
-## 📈 Key Insights
-- Nordic countries consistently dominate the top rankings.
-- Canada dropped from top 10 in 2011–2018 to rank 18 in 2024.
-- Social support, GDP per capita, and life expectancy are the strongest happiness drivers.
-- Generosity has little explanatory power in recent years.
-- Some countries (e.g., Costa Rica) are happier than predicted by fundamentals, while others underperform.
+## 📊 Visualizations
+- 📈 **Rank Trends (2011–2024):** Top 10 happiest countries compared over time, with Canada highlighted.  
+- 📊 **Stacked Bar Analysis:** Breakdown of how GDP, social support, life expectancy, freedom, generosity, and corruption contribute to overall happiness.  
+- 🗺 **Regional Comparisons:** Horizontal bar charts color-coded by region.  
+- 🔗 **Pairwise Correlation Matrix:** Scatterplot grid showing relationships between all explanatory factors and happiness.  
 
 ---
 
 ## 🖼️ Sample Visuals
 ![Top 10 Happiest Countries 2024](figures/Top10HappiestCountries.png)
 ![Canada Trend](figures/CanadaHappinessRank.png)
-![Factor Contributions](figures/LadderScoreByFactors.png)
+![Factor Contributions](figures/LadderScoreByFactors.png) 
+
+---
+
+## 🛠 Tools & Libraries
+- **Python 3.11**  
+- **Pandas / NumPy** – data cleaning and transformation  
+- **Matplotlib / Seaborn** – visualizations  
+- **Jupyter Notebook** – interactive analysis  
+
+---
+
+## 🚀 Why This Project Matters
+This project demonstrates:  
+- **Exploratory Data Analysis (EDA):** turning raw data into insights.  
+- **Data Visualization:** creating clear, professional charts for non-technical audiences.  
+- **Analytical Storytelling:** connecting data with real-world insights about global well-being.  
+
+Such skills are directly relevant for **Data Analyst, Business Analyst, and Financial Analyst** roles where data needs to be cleaned, visualized, and explained to stakeholders.  
 
 ---
 
