@@ -1,0 +1,9 @@
+# Ignore raw data files
+data/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
