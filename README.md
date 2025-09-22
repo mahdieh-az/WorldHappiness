@@ -32,6 +32,7 @@ This project analyzes the **World Happiness Report dataset (2011–2024)** to ex
 - **Pandas / NumPy** – data cleaning and transformation  
 - **Matplotlib / Seaborn** – visualizations  
 - **Jupyter Notebook** – interactive analysis  
+- **Power BI** – interactive dashboards
 
 ---
 
@@ -42,6 +43,22 @@ This project demonstrates:
 - **Analytical Storytelling:** connecting data with real-world insights about global well-being.  
 
 Such skills are directly relevant for **Data Analyst, Business Analyst, and Financial Analyst** roles where data needs to be cleaned, visualized, and explained to stakeholders.  
+
+---
+
+## 📊 Power BI Dashboard
+Alongside the Python analysis, I built an **interactive Power BI dashboard** to explore the data more dynamically.  
+
+### Dashboard Features:
+- 🌍 **Map View** – Happiness scores across countries and regions.  
+- 📊 **Top 10 Countries (2011–2024)** – With slicers to adjust ranking thresholds.  
+- 📈 **Trend Lines** – Happiness rank changes for top countries over time.  
+- 🟦 **Factor Contributions** – Stacked bars showing how GDP, social support, life expectancy, freedom, etc. contribute to the overall Ladder score.  
+
+### Previews:
+![Power BI Dashboard 1](PowerBi%20Dashboard%201.png)  
+![Power BI Dashboard 2](PowerBi%20Dashboard%202.png)  
+![Power BI Dashboard 3](PowerBi%20Dashboard%203.png)  
 
 ---
 
