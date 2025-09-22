@@ -56,9 +56,9 @@ Alongside the Python analysis, I built an **interactive Power BI dashboard** to 
 - 🟦 **Factor Contributions** – Stacked bars showing how GDP, social support, life expectancy, freedom, etc. contribute to the overall Ladder score.  
 
 ### Previews:
-![Power BI Dashboard 1](PowerBi%20Dashboard%201.png)  
-![Power BI Dashboard 2](PowerBi%20Dashboard%202.png)  
-![Power BI Dashboard 3](PowerBi%20Dashboard%203.png)  
+![Power BI Dashboard 1](PowerBi%20Dashboard%202.png)  
+![Power BI Dashboard 2](PowerBi%20Dashboard%203.png)  
+![Power BI Dashboard 3](PowerBi%20Dashboard%201.png)  
 
 ---
 
